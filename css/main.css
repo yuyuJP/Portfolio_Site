@@ -115,6 +115,9 @@ main {
 .work__detail {
   width: 100%;
   text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   margin-top: 5px;
   font-weight: 200;
   font-size: 12px;
