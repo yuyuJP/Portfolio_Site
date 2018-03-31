@@ -113,14 +113,11 @@ main {
 }
 
 .work__detail {
-  width: 100%;
+  width: 95%;
   text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  margin-top: 5px;
   font-weight: 200;
   font-size: 12px;
+  margin-right: 0;
   color: grey;
 }
 
@@ -129,6 +126,14 @@ main {
     width: 40%;
     padding: 20px;
   }
+
+  .work__detail {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+  }
+
 }
 
 @media screen and (min-width: 700px) {
