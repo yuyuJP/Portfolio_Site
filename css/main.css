@@ -138,3 +138,11 @@ main {
     padding: 0px;
   }
 }
+
+@media screen and (min-width: 850px) {
+  body {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
